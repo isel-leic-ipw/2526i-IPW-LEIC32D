@@ -23,5 +23,13 @@ function showProps(obj)
 
 showProps(std)
 
+function createStudent(name, number){
+    const s = {}
+    s.name=name
+    s.number=number
+    return s
+}
+
+const std2 = createStudent("Joao",123)
 
 
