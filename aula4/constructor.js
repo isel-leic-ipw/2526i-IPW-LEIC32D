@@ -11,8 +11,8 @@ const std2 = new Student("Joao", 4321)
 
 
 //std1.f = function() {console.log("F")}
-//Student.prototype.f = function() {console.log("F")}
-Object.prototype.f = function() {console.log(this)}
+Student.prototype.f = function() {console.log("F")}
+//Object.prototype.f = function() {console.log(this)}
 
 std1.f() 
 std2.f() 
