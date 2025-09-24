@@ -1,0 +1,13 @@
+GET https://api.football-data.org/v4/areas/
+
+X-Auth-Token : 406131604e064bb1899a2b0c7ebd60b7
+
+###
+
+GET https://api.football-data.org/v4/competitions?areas=2072
+
+X-Auth-Token : 406131604e064bb1899a2b0c7ebd60b7
+
+###
+GET https://api.football-data.org/v4/competitions/PL/teams?season=2024
+X-Auth-Token : 406131604e064bb1899a2b0c7ebd60b7
