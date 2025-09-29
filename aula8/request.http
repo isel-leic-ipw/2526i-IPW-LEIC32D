@@ -1,0 +1,10 @@
+GET https://httpbin.org/delay/1
+
+###
+
+GET https://api.sampleapis.com/movies/animation
+
+###
+
+GET http://api.football-data.org/v4/teams/1903
+X-Auth-Token :357753d1ab46482699de02adcbe0ec1f

@@ -16,6 +16,7 @@ readPromise
     .then(data => fs.writeFile("file2.txt", data.toString()))
     .then(()=>console.log("WRITE DONE"))
     .catch(error => console.log("ERROR",error))
+    .then(()=>console.log("After Catch or WRITE DONE"))
     
 console.log("DONE REALLY?1")
 console.log("DONE REALLY?2")
